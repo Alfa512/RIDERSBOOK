@@ -1,3 +1,0 @@
-# RIDERSBOOK
-Riders communications
-ridersbook
