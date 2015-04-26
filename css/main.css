@@ -1,0 +1,283 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.right {
+	text-align: right;
+}
+
+#header h2 {
+	color: #FFF;
+	font-size: 36px; 
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+}
+
+#header
+{
+	height: 43px;
+	margin-bottom: 2px;
+	background-image: url('../images/header_background.png');
+	/*background-image: url('header_background.png');*/
+}
+
+#left, #right {
+	min-height: 300px;
+	padding: 0 10px;
+	width: 240px;
+}
+
+#left {
+	
+	/*border-right: 1px solid #cccccc;*/
+	float: left;
+}
+
+#right {
+	width: 260px;
+	border-left: 1px solid #cccccc;
+	float: right;
+}
+
+#left h2 {
+	font-size: 25px; 
+	font-family: "Times New Roman", Times, serif;
+}
+
+#left ul li {
+	color: #4d68a2;
+	list-style-type: none;
+	font-size: 16px; 
+	font-family: "Times New Roman", Times, serif;
+}
+
+#left ul li:hover  {
+	background: #deeeff;
+}
+
+#left ul li a {
+	color: #4d68ca;
+	text-decoration: none;
+}
+
+#left ul li a:visited {
+	color: #4d68ca;
+	text-decoration: none;
+}
+
+#left ul li a {
+	color: #4d68ca;
+	text-decoration: none;
+
+}
+
+#center {
+	border: 1px solid #cccccc;
+	/*border-bottom: 1px solid #cccccc;*/
+	/*border-right: 1px solid #4d68a2;*/
+	margin: 0 280px;
+	padding: 0 10px;
+}
+
+hr {
+	margin: 0px;
+}
+
+#center h1 {
+	margin: 0px;
+	text-align: center;
+}
+
+#center form {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.banner {
+	border: 1px solid #4d68a2;
+	margin: 10px auto 0;
+	width: 240px;
+}
+
+#footer p {
+	text-align: center;
+}
+
+#pagination p {
+	font-size: 110%;
+	margin: 0px;
+	text-align: center;
+}
+#pagination a {
+	display: inline-block;
+	padding: 3px;
+}
+
+#reg table {
+	margin: 0 auto;
+}
+
+.message
+{
+	color: #f00;
+	text-align: center;
+}
+
+#message p 
+{
+	text-align: center;
+}
+
+.profile
+{
+	color: #4d68ca;
+	/*float: right;*/
+	margin-top: 10px;
+	/*width: 50%;*/
+}
+
+.profile .profile_setting a /* Ссылка изменения профиля*/
+{
+	text-decoration: none;
+	color: #999;
+	font-size: 12px;
+}
+
+.profile .profile_setting a:visited /* Ссылка изменения профиля посещённая*/
+{
+	color: #999;
+}
+
+.profile .profile_setting a:hover /* Ссылка изменения профиля*/
+{
+	color: #000;
+}
+
+.profile .name a /* Ссылка просмотра профиля*/
+{
+	text-decoration: none;
+	color: #4d68ca;
+	/* color: #999; */
+	/*font-size: 12px;*/
+}
+
+.profile .name a:visited /* Ссылка просмотра профиля*/
+{
+	/*color: #999;*/
+}
+
+.profile .name a:hover /* Ссылка просмотра профиля*/
+{
+	color: #000;
+}
+
+.profilephoto
+{
+	max-width:49%;
+	max-height: 100%;
+	/*text-align: left;*/
+	float: left;
+	margin-right: 5px;
+}
+
+.profilephoto img
+{
+	text-align: left;
+	float:left;
+	max-width:100%;
+	width:auto;
+	max-height:100%;
+	height: auto;
+}
+
+.profilewrapper
+{
+	/*text-align: left;*/
+	height: 200px;
+	margin: 0px;
+	width: 400px;
+}
+
+.userPageTop
+{
+	font-size: 20px;
+	border-bottom: 1px solid #aaa;
+	margin-bottom: 10px;
+}
+
+.search_result
+{
+	color: #666;
+}
+
+.search_result .name, .last_name
+{
+	color: #000;
+	font-size: 20px;
+}
+
+.search_border
+{
+	border-bottom: 1px solid #aaa;
+	margin-bottom: 5px;
+}
+
+.profileChange
+{
+	margin: 10px;
+}
+
+.searchuserwrapper /*Элемент поиска пользователя*/
+{
+	display: inline-block;
+	/*vertical-align: baseline;*/
+	/*display: ;*/
+	/*float: left;*/
+	text-align: left;
+	/*height: 250px;*/
+	/*max-height: 250px;*/
+	margin: 20px;
+	width: 400px;
+	border-bottom: 1px solid #aaa;
+}
+
+.searchuserinfo /*Выводимая по поиску информация пользователя*/
+{
+	color: #4d68ca;
+	/*float: right;*/
+	margin-top: 10px;
+	/*width: 50%;*/
+}
+
+.post
+{
+	text-align: center;
+	max-width:100%;
+	margin: 0px;
+	border-bottom: 1px solid #aaa;
+	margin-bottom: 10px;
+}
+
+.postimage
+{
+	margin:10px;
+}
+
+.postimage img
+{
+	text-align: center;
+	width:auto;
+    max-width:80%;
+    height:auto;
+	
+}
+
+.posttext
+{
+	text-align: center;
+}

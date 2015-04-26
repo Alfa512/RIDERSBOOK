@@ -1,0 +1,1 @@
+<div class="profile_setting"><a href="?view=profilesetting">Изменить</a></div>
